@@ -21,7 +21,7 @@ html {
 body,
 p,
 button {
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', sans-serif;
   color: #626262;
   font-size: 14px;
   line-height: 24px;
@@ -108,7 +108,7 @@ button {
   margin-bottom: 32px;
 }
 .content-list__name {
-  font: 300 14px "Ubuntu", sans-serif;
+  font: 300 14px 'Ubuntu', sans-serif;
   text-transform: uppercase;
   color: #b4ad9e;
   margin-bottom: 31px;

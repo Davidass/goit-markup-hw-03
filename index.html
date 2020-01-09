@@ -1,108 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Homework-02</title>
+    <title>Module-03</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400&Ubuntu:300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
+
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">lifestyle</a></li>
-          <li><a href="#">photodiary</a></li>
-          <li><a href="#">music</a></li>
-          <li><a href="#">travel</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <article>
-          <img
-            src="images/musicfestival.jpg"
-            width="420"
-            height="280"
-            alt="Music festival"
-          />
-          <p>Lafestile</p>
-          <h2>More then just a music festival</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
-            odit non quia perferendis quasi voluptates! Non quia explicabo,
-            commodi numquam ipsam, laboriosam minima facilis nam error, ipsum
-            voluptatibus magnam perferendis. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Necessitatibus libero beatae at? Culpa
-            illo distinctio iure praesentium? Error sunt dolorem temporibus
-            accusantium debitis quae consectetur consequuntur harum quas, unde
-            autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            quibusdam explicabo, eaque quasi incidunt ipsam aliquid, corrupti
-            nisi officiis cupiditate itaque voluptates dolore dolorum amet in
-            molestiae doloribus accusamus velit.
-          </p>
-        </article>
-        <article>
-          <img src="images/coffee.jpg" width="420" height="280" alt="Coffee" />
-          <p>Lafestile</p>
-          <h2>Life tastes better with coffee</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
-            odit non quia perferendis quasi voluptates! Non quia explicabo,
-            commodi numquam ipsam, laboriosam minima facilis nam error, ipsum
-            voluptatibus magnam perferendis. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Necessitatibus libero beatae at? Culpa
-            illo distinctio iure praesentium? Error sunt dolorem temporibus
-            accusantium debitis quae consectetur consequuntur harum quas, unde
-            autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            quibusdam explicabo, eaque quasi incidunt ipsam aliquid, corrupti
-            nisi officiis cupiditate itaque voluptates dolore dolorum amet in
-            molestiae doloribus accusamus velit.
-          </p>
-        </article>
-        <article>
-          <img
-            src="images/americandream.jpg"
-            width="420"
-            height="280"
-            alt="American dream"
-          />
-          <p>Pahotodiary</p>
-          <h2>American dream</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
-            odit non quia perferendis quasi voluptates! Non quia explicabo,
-            commodi numquam ipsam, laboriosam minima facilis nam error, ipsum
-            voluptatibus magnam perferendis. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Necessitatibus libero beatae at? Culpa
-            illo distinctio iure praesentium? Error sunt dolorem temporibus
-            accusantium debitis quae consectetur consequuntur harum quas, unde
-            autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            quibusdam explicabo, eaque quasi incidunt ipsam aliquid, corrupti
-            nisi officiis cupiditate itaque voluptates dolore dolorum amet in
-            molestiae doloribus accusamus velit.
-          </p>
-        </article>
-        <article>
-          <img src="images/alps.jpg" width="420" height="280" alt="The Alps" />
-          <p>Photodiary</p>
-          <h2>A day exploring the Alps</h2>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique
-            odit non quia perferendis quasi voluptates! Non quia explicabo,
-            commodi numquam ipsam, laboriosam minima facilis nam error, ipsum
-            voluptatibus magnam perferendis. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Necessitatibus libero beatae at? Culpa
-            illo distinctio iure praesentium? Error sunt dolorem temporibus
-            accusantium debitis quae consectetur consequuntur harum quas, unde
-            autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            quibusdam explicabo, eaque quasi incidunt ipsam aliquid, corrupti
-            nisi officiis cupiditate itaque voluptates dolore dolorum amet in
-            molestiae doloribus accusamus velit.
-          </p>
-        </article>
-        <button>load more</button>
-      </section>
-    </main>
+    <div class="wrapper">
+      <header class="menu-wrapper">
+        <nav class="navigation">
+          <ul class="site-navigation">
+            <li><a href="#">lifestyle</a></li>
+            <li><a href="#">Photodiary</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Travel</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main-content">
+        <section>
+          <article class="content">
+            <img
+              class="content-list__image"
+              src="./images/Foto-1.jpg"
+              width="420"
+              height="280"
+              alt="Music festival"
+            />
+            <p class="content-list__name">lifestyle</p>
+            <h2 class="content-list__heading">
+              More then just a music festival
+            </h2>
+            <p class="content-list__about">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+              perspiciatis, culpa ratione quibusdam dolorum similique expedita
+              reprehenderit ex optio ad quas facilis quis voluptatibus
+              doloremque quisquam, unde ab, ipsam saepe!
+            </p>
+          </article>
+          <article class="content">
+            <img
+              class="content-list__image"
+              src="./images/Foto-2.jpg"
+              width="420"
+              height="280"
+              alt="coffee"
+            />
+            <p class="content-list__name">lifestyle</p>
+            <h2 class="content-list__heading">
+              Life tastes better with coffee
+            </h2>
+            <p class="content-list__about">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae quasi rem accusamus corporis molestiae sit fugit
+              placeat reprehenderit sunt tempore quos hic doloremque, repellat
+              id est ad, itaque quis expedita?
+            </p>
+          </article>
+          <article class="content">
+            <img
+              class="content-list__image"
+              src="./images/Foto-3.jpg"
+              width="420"
+              height="280"
+              alt="American dream"
+            />
+            <p class="content-list__name">Photodiary</p>
+            <h2 class="content-list__heading">
+              American dream
+            </h2>
+            <p class="content-list__about">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              nesciunt repudiandae voluptates tempore amet ratione, numquam
+              assumenda dolore aliquid, mollitia eaque. A tempora soluta
+              corrupti! Nisi debitis neque natus culpa?
+            </p>
+          </article>
+          <article class="content">
+            <img
+              class="content-list__image"
+              src="./images/Foto-4.jpg"
+              width="420"
+              height="280"
+              alt=" The Alps"
+            />
+            <p class="content-list__name">Photodiary</p>
+            <h2 class="content-list__heading">
+              A day exploring the Alps
+            </h2>
+            <p class="content-list__about">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+              sed beatae at officiis nemo dolorem error quae fuga facere.
+              Mollitia eos tenetur itaque vel illo facere odit quibusdam iste
+              quo!A tempora soluta corrupti! Nisi debitis neque natus culpa?
+            </p>
+          </article>
+          <article class="content">
+            <img
+              class="content-list__image"
+              src="./images/Foto-5.jpg"
+              width="420"
+              height="280"
+              alt=" Top 10 song"
+            />
+            <p class="content-list__name">lifestyle</p>
+            <h2 class="content-list__heading">
+              Top 10 song for running
+            </h2>
+            <p class="content-list__about">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo
+              autem, corporis odio earum quos corrupti quam officiis voluptatum
+              debitis numquam voluptatibus, alias saepe dolorem ea sint optio
+              inventore labore!
+            </p>
+          </article>
+          <article class="content">
+            <img
+              class="content-list__image"
+              src="./images/Foto-6.jpg"
+              width="420"
+              height="280"
+              alt=" Winter days"
+            />
+            <p class="content-list__name">lifestyle</p>
+            <h2 class="content-list__heading">
+              Cold winter days
+            </h2>
+            <p class="content-list__about">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              voluptate nulla vel quo velit dolorum provident totam. Autem quae
+              molestiae beatae ut architecto ea eveniet ex. Adipisci natus quasi
+              ipsam.
+            </p>
+          </article>
+          <button class="download" type="button">Load more</button>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
